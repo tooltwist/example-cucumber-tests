@@ -1,0 +1,20 @@
+{
+    "name": "application-name"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "chai"        : "^1.0.9"
+    , "chai-as-promised" : "^4.1.1"
+    , "should"      : "*"
+    , "sinon"       : "^1.10.3"
+    , "sinon-chai"  : "^2.5.0"
+    , "cucumber"    : "*"
+    , "cucumber-assert" : "latest"
+    , "request"   	: "*"
+    , "redis"    	: "*"
+  },
+  "scripts": {
+    "test":"mocha"
+  }
+}
+
